@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <nav class="nav-bar">
+        <img src="logo.png"  alt=""> </nav>
+
+    <div class="container">
+        <div class="login">
+            <form action="">
+            <h1 class="log1">Login to continue</h1>
+            <div class="inpu">
+            <input type="text" class="username" name="" placeholder="Username/emailid" id="">
+            </div>
+            <div class="inpu">
+                <input type="password" class="username" name="" placeholder="password" id="">
+            </div>
+            <div class="sub">
+            <button class="submit" >submit</button>
+            </div>
+            <p class="new">New to Hotstar?     <a class="link" href="#">Signup</a></div>
+            </p>
+        </form>
+        <div class="login" style="display: none;">
+            <form action="">
+            <h1 class="log1">Create Account</h1>
+            <div class="inpu">
+            <input type="text" class="username" name="" placeholder="First Name" id="">
+            </div>
+            <div class="inpu">
+                <input type="text" class="username" name="" placeholder="Last Name" id="">
+                </div>
+                <div class="inpu">
+                    <input type="email" class="username" name="" placeholder="Email Id" id="">
+                    </div>
+            
+                    <div class="inpu">
+                        <input type="text" class="username" name="" placeholder="Username" id="">
+                        </div>
+            <div class="inpu">
+                <input type="password" class="username" name="" placeholder="password" id="">
+            </div>
+            <div class="sub">
+            <button class="submit" >submit</button>
+            </div>
+            <p class="new">Alredy Registered?    <a class="link" href="#">login</a></div>
+            </p>
+        </form>
+    </div>
+    
+    <script src='https://code.jquery.com/jquery-3.6.0.min.js'></script>
+    <script>
+        $('.new a').click(function(){
+        $('.login').animate({height: "toggle",opacity: "toggle"},"slow");
+        });
+    </script>
+</body>
+</html>
